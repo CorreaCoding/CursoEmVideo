@@ -5,6 +5,7 @@ algoritmo "Exercício 51"
 // Autor : Amanda
 // Data : 02/08/2021
 // Seção de Declarações
+
 var
 
 preco, maiorPreco, menorPreco : real

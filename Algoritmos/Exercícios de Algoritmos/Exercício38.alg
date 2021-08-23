@@ -12,6 +12,8 @@ inicio
 
 contador <- 6
 
+escreval("==== PASSO 04 - REPETIÇÕES ENQUANTO ====")
+
 Enquanto (contador <=11) faca
          escreva(contador)
          contador <- contador + 1
