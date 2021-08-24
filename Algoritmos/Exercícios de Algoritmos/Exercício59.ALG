@@ -38,7 +38,7 @@ Inicio
          idadeHomens <- idadeHomens + idade
          mediaHomens <- idadeHomens/homensCadastrados
       FimSe
-      Se (sexo = "Feminino") ou (Sexo = "F") e (idade < mulherMaisJovem) entao
+      Se (sexo = "Feminino") ou (sexo = "F") e (idade < mulherMaisJovem) entao
          mulherMaisJovem <- idade
       FimSe
    Ate (resposta = "N")
