@@ -1,23 +1,23 @@
-algoritmo "ExercÌcio 21"
-// FunÁ„o : FaÁa um algoritmo que leia um determinado ano e mostre se
-//           ele È ou n„o BISSEXTO.
+algoritmo "Exerc√≠cio 21"
+// Fun√ß√£o : Fa√ßa um algoritmo que leia um determinado ano e mostre se
+//           ele √© ou n√£o BISSEXTO.
 // Autor : Amanda
 // Data : 31/07/2021
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 
 ano: inteiro
 
 inicio
 
-escreval(" ==== PASSO 02 - CONDI«’ES B¡SICAS ==== ")
+escreval(" ==== PASSO 02 - CONDI√á√ïES B√ÅSICAS ==== ")
 escreva("Insira um ano: ")
 leia(ano)
 
-se (ano%100=0) ou (ano%4=0) entao
-    escreva(ano, " È um ano Bissexto")
+se (ano%100=0) e (ano%4=0) entao
+    escreva(ano, " √© um ano Bissexto")
 senao
-   escreva(ano, " n„o È um ano Bissexto")
+   escreva(ano, " n√£o √© um ano Bissexto")
 fimse
 
 fimalgoritmo
