@@ -14,10 +14,10 @@ escreval(" ==== PASSO 02 - CONDIÇÕES BÁSICAS ==== ")
 escreva("Insira um ano: ")
 leia(ano)
 
-se (ano%100=0) e (ano%4=0) entao
-    escreva(ano, " é um ano Bissexto")
+se (ano%400=0) ou (ano%4=0) e (ano%100!=0) entao
+    escreva(ano, " é um ano BISSEXTO")
 senao
-   escreva(ano, " não é um ano Bissexto")
+   escreva(ano, " não é um ano BISSEXTO")
 fimse
 
 fimalgoritmo
