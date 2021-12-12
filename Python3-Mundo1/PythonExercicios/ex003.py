@@ -1,3 +1,5 @@
+print('====== EXERCÍCIO 03 ======')
+
 numero1 = int(input('Digite um número: '))
 numero2 = int(input('Digite mais um número: '))
 s = numero1 + numero2

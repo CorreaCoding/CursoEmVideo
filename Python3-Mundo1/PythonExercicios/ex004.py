@@ -1,3 +1,5 @@
+print('====== EXERCÍCIO 04 ======')
+
 algo = input('Digite algo: ')
 print('O tipo primitivo desse valor é {}'.format(type(algo)))
 print('Só tem espaços? {}'.format(algo.isspace()))
