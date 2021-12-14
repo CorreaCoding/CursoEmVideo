@@ -16,12 +16,10 @@ sleep(1)
 print('KEN')
 sleep(1)
 print('PO')
-print('='*11)
+print('=' * 11)
 print('O computador escolheu {}'.format((movimentos[computador].upper())))
 print('O jogador escolheu {}'.format(movimentos[jogador].upper()))
-print('='*11)
-
-
+print('=' * 11)
 
 if computador == 0:
     if jogador == 0:
@@ -50,5 +48,3 @@ elif computador == 2:
         print('COMPUTADOR VENCE!')
     else:
         print('JOGADA INVÁLIDA!')
-
-
